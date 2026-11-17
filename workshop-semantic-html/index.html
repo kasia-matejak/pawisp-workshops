@@ -8,7 +8,7 @@
       <title>Moje podróże — blog podróżniczy</title>
     </head>
   <body>
-    <header>
+    <header id="gora">
       <h1>Podróże małe i duże</h1>
       <p>Blog o podróżach, odkrywaniu nowych miejsc
         i poznawaniu ciekawych kultur.</p>
@@ -19,6 +19,8 @@
           <li><a href="#kraje">Kraje, które odwiedziłem</a></li>
           <li><a href="#artykuly">Artykuły z podróży</a></li>
           <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#plan-podrozy">Plan podróży</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
     </header>
@@ -28,6 +30,8 @@
       
       <section id="o-mnie">
         <h2>O mnie</h2>
+        <img src="img/autor.jpg" alt="Katarzyna Matejak, autorka bloga, na zdjęciu jako dzik" width="400" height="400">
+        <p>Poznaj mnie i moją pasję do podróżowania oraz odkrywania świata.</p>
 
         <p>
           Mam na imię Kasia i mój styl podróżowania zależy głównie od miejsca, w które się wybieram.
@@ -52,22 +56,224 @@
       <section id="kraje">
         <h2>Kraje, które odwiedziłem</h2>
         <p>Przeczytaj o krajach, które odwiedziłem, i poznaj ich najciekawsze miejsca.</p>
+        <ul>
+          <li>Polska – warto zobaczyć Wawel i spróbować obwarzanka na Rynku Głównym.
+            <ul>
+              <li>Kraków</li>
+              <li>Gdańsk</li>
+              <li>Wrocław</li>
+            </ul>
+          </li>
+          <li>Hiszpania – zapamiętam wieczorne spacery po Barcelonie i zapach świeżych churros.</li>
+          <li>Włochy – warto zobaczyć Koloseum i zjeść prawdziwą pizzę w Neapolu.</li>
+          <li>Czechy – zachwyciły mnie Most Karola o świcie i klimatyczne uliczki Pragi.</li>
+          <li>Grecja – zapamiętam zachody słońca na Santorini i smak greckiej sałatki.</li>
+        </ul>
       </section>
 
       <section id="artykuly">
         <h2>Artykuły z podróży</h2>
         <p>Znajdziesz tutaj relacje z wypraw, praktyczne porady i podróżnicze inspiracje.</p>
+
+        <ul>
+          <li><a href="#weekend-w-rzymie">Weekend w Rzymie</a></li>
+          <li><a href="#tydzien-na-santorini">Tydzień na Santorini</a></li>
+          <li><a href="#jesien-w-pradze">Jesień w Pradze</a></li>
+        </ul>
+
+        <article id="weekend-w-rzymie">
+          <header>
+            <h3>Weekend w Rzymie</h3>
+            <p>Autor: Katarzyna Matejak</p>
+            <p>Opublikowano: <time datetime="2026-10-12">12 października 2026</time></p>
+          </header>
+          <img src="img/rzym.jpg" alt="Koloseum w Rzymie widziane z zewnątrz w słoneczny dzień" width="800" height="600">
+          <p>Do Rzymu poleciałam na krótki weekend i od pierwszej chwili czułam, że dwa dni to za mało. Wąskie uliczki, zapach świeżej kawy i starożytne ruiny na każdym kroku sprawiły, że nie mogłam oderwać wzroku od miasta. Już pierwszego wieczoru zapisałam w notatniku: <q>Rzym wciąga od pierwszej chwili.</q></p>
+          <p>Zwiedzanie zaczęłam od Koloseum, a wieczór zakończyłam na placu przy Fontannie di Trevi. Następnego dnia zrobiłam sobie spokojny spacer po mieście i odpoczęłam przy porządnej porcji włoskich lodów. Podróż była wyjątkowo prosta, bo Włochy należą do Unii Europejskiej (<abbr title="Unia Europejska">UE</abbr>), więc granicę przekroczyłam bez żadnych formalności.</p>
+          <blockquote>
+            <p>Siedzę na schodach przy Fontannie di Trevi i patrzę na ludzi, którzy rzucają monety przez ramię. Nikt się nie spieszy, a ja po raz pierwszy od miesięcy też nie. Chciałabym, żeby ten wieczór trwał dłużej.</p>
+          </blockquote>
+          <p>Katarzyna Matejak, <cite>Dziennik podróży</cite></p>
+          <h4>Co warto zobaczyć?</h4>
+          <ul>
+            <li>Koloseum</li>
+            <li>Fontanna di Trevi</li>
+            <li>Panteon</li>
+            <li>Piazza Venezia</li>
+          </ul>
+          <aside>
+            <h4>Warto wiedzieć</h4>
+            <p>Centrum Rzymu najlepiej zwiedzać pieszo, a na długie spacery zabierz wygodne buty i butelkę wody. Bilet na komunikację miejską kupisz w automacie lub kiosku, a w sezonie wejściówki do Koloseum warto zarezerwować z wyprzedzeniem.</p>
+          </aside>
+        </article>
+
+        <article id="tydzien-na-santorini">
+          <header>
+            <h3>Tydzień na Santorini</h3>
+            <p>Autor: Katarzyna Matejak</p>
+            <p>Opublikowano: <time datetime="2026-09-05">5 września 2026</time></p>
+          </header>
+          <p>Santorini to wyspa, na której czas płynie wolniej. Biało-niebieskie domki, kręte uliczki Oii i najpiękniejsze zachody słońca, jakie widziałam, sprawiły, że tydzień minął zdecydowanie za szybko.</p>
+        </article>
+
+        <article id="jesien-w-pradze">
+          <header>
+            <h3>Jesień w Pradze</h3>
+            <p>Autor: Katarzyna Matejak</p>
+            <p>Opublikowano: <time datetime="2026-11-02">2 listopada 2026</time></p>
+          </header>
+          <p>Praga jesienią ma wyjątkowy, nostalgiczny klimat. Poranny spacer po Moście Karola, gorąca czekolada w małej kawiarni i widok na miasto ze Wzgórza Petřín to wspomnienia, do których chętnie wracam.</p>
+        </article>
       </section>
 
       <section id="galeria">
         <h2>Galeria</h2>
         <p>Zobacz zdjęcia z moich podróży i odkryj piękne zakątki świata.</p>
+
+        <figure>
+          <img src="img/galeria-rzym.jpg" alt="Fontanna di Trevi">
+          <figcaption>Rzym, Fontanna di Trevi – wieczorny spacer po mieście, zdjęcie zrobione <time datetime="2026-10-12">12 października 2026</time>.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="img/galeria-santorini.jpg" alt="Białe domki z niebieskimi kopułami na klifie nad morzem na Santorini">
+          <figcaption>Santorini, Grecja – widok na biało-niebieską zabudowę podczas zachodu słońca.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="img/galeria-praga.jpg" alt="Most Karola w Pradze o poranku, z widokiem na rzekę Wełtawę">
+          <figcaption>Praga, Czechy – Most Karola o świcie, jesienny spacer po starym mieście.</figcaption>
+        </figure>
+      </section>
+
+      <section id="plan-podrozy">
+        <h2>Plan mojej kolejnej podróży</h2>
+        <p>Chcę pojechać do Maroka, żeby zobaczyć Marrakesz, przejść się po tamtejszych suku i oczywiście napić się prawdziwej marokańskiej herbaty.</p>
+        <ol>
+          <li>Wybrać termin wyjazdu i zaplanować urlop.</li>
+          <li>Kupić bilety lotnicze.</li>
+          <li>Zarezerwować nocleg w Marrakeszu.</li>
+          <li>Zaplanować trasę zwiedzania.</li>
+          <li>Spakować się i przygotować dokumenty.</li>
+        </ol>
+
+        <button type="button" id="otworz-pakowanie">Otwórz listę rzeczy do spakowania</button>
+
+        <dialog id="pakowanie" aria-labelledby="tytul-pakowania">
+          <h3 id="tytul-pakowania">Co spakować?</h3>
+          <ul>
+            <li>Dokument tożsamości</li>
+            <li>Butelka wody</li>
+            <li>Wygodne buty</li>
+            <li>Powerbank</li>
+          </ul>
+          <button type="button" id="zamknij-pakowanie">Zamknij</button>
+        </dialog>
+
+        <table>
+          <caption>Przykładowy budżet weekendu w Rzymie dla jednej osoby</caption>
+          <thead>
+            <tr>
+              <th scope="col">Wydatek</th>
+              <th scope="col">Koszt (PLN)</th>
+              <th scope="col">Uwagi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Lot w obie strony</th>
+              <td>420</td>
+              <td>Cena za jedną osobę</td>
+            </tr>
+            <tr>
+              <th scope="row">Nocleg</th>
+              <td>300</td>
+              <td>Dwie noce</td>
+            </tr>
+            <tr>
+              <th scope="row">Jedzenie</th>
+              <td>180</td>
+              <td>Trzy dni</td>
+            </tr>
+            <tr>
+              <th scope="row">Transport miejski</th>
+              <td>60</td>
+              <td>Przejazdy na miejscu</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row">Razem</th>
+              <td>960 zł</td>
+              <td>Budżet ćwiczeniowy</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="faq">
+        <h2>Najczęstsze pytania</h2>
+
+        <details>
+          <summary>Gdzie zaczyna się spacer?</summary>
+          <p>Przy Koloseum. Następnie przejdź na Piazza Venezia i zakończ spacer przy Panteonie.</p>
+        </details>
+
+        <details>
+          <summary>Co zabrać na spacer?</summary>
+          <p>Wodę, wygodne buty i naładowany telefon z mapą.</p>
+        </details>
+
+        <details>
+          <summary>Gdzie znajdę całą trasę?</summary>
+          <p>Zobacz artykuł <a href="#weekend-w-rzymie">Weekend w Rzymie</a>.</p>
+        </details>
       </section>
     </main>
 
     <footer>
       <p>Autor: Katarzyna Matejak</p>
+      <p>Kontakt: <a href="mailto:kontakt@example.com">kontakt@example.com</a></p>
+      <p><a href="#gora">Wróć na górę</a></p>
+
+      <h2>Napisz do mnie</h2>
+      <form>
+        <fieldset>
+          <legend>Dane kontaktowe</legend>
+          <label for="imie">Imię</label>
+          <input type="text" id="imie" name="imie">
+
+          <label for="email">Adres e-mail</label>
+          <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Wiadomość</legend>
+          <label for="temat">Temat</label>
+          <input type="text" id="temat" name="temat">
+
+          <label for="wiadomosc">Treść wiadomości</label>
+          <textarea id="wiadomosc" name="wiadomosc" required></textarea>
+        </fieldset>
+
+        <button type="submit">Wyślij wiadomość</button>
+      </form>
+
       <p>Wszelkie prawa zastrzeżone.</p>
     </footer>
+
+    <script>
+      const przyciskOtworz = document.getElementById('otworz-pakowanie');
+      const okno = document.getElementById('pakowanie');
+      const przyciskZamknij = document.getElementById('zamknij-pakowanie');
+
+      przyciskOtworz.addEventListener('click', function () {
+        okno.showModal();
+      });
+
+      przyciskZamknij.addEventListener('click', function () {
+        okno.close();
+      });
+    </script>
   </body>
 </html>
